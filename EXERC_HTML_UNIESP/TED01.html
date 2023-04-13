@@ -6,21 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site do destinatario!</title>
     <style>
-        body{
-            background-color: rgb(34, 99, 110);
-            color: black;
-            font: normal 22 pt arial;
+        body {
+            background-color: rgb(0, 0, 0);
+            color: rgb(15, 127, 127);
         }
         div#p1{
-            font: normal 18pt;
+            color:rgb(19, 116, 207);
+            font: normal 18pt Arial;
         }
+        div#p2{
+            color:rgb(90, 5, 237);
+            font: normal 20pt arial;
+          
+        }
+        div#it{
+            color: rgb(127, 129, 255);
+        }
+        div#ti{
+            font: normal 22px arial;
+
+        }
+        
     </style>
 </head>
 <body>
+    <div id="ti">
     <h>pasta 1</h>
+    </div>
     <div id="p1">
             <p>esse link abaixo levara para o usuario do site 1 para o site 2</p>
     </div>
+    <p>esse link levara para uma pasta que jogara vc de volta pra ca!
+    </br>
+    </p>
     <a href="http://127.0.0.1:5500/TED01_PT2.html">link do site 2</a>
+    
+
+    <div id="it">
+    <h1>mine sistema de intereação usuario</h1>
+    </div>
+    <div id="p2">
+        <p id="demo">seja bem vindo  <span id="status"></span>!</p>
+        <p id="demo2"> como foi seu dia? <span id="status2"></span></p>
+    </div>
+
+    <script>
+        window.alert("voce é um cara dahora")
+
+
+        var nome = window.prompt("qual é o seu nome? ")
+        document.getElementById("status").innerHTML = nome;
+
+        var status2 =  window.prompt("como foi seu dia? ")
+        document.getElementById("status2").innerHTML = status2;
+    </script>
 </body>
 </html>
