@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05 de introdução html</title>
+    <style>
+        body {
+            background-color: darksalmon;
+            color: darkslategray;
+        }
+        div#p1{
+            color:blue;
+            font: normal 18pt Arial;
+        }
+        div#p2{
+            color:black;
+            font: normal 20pt arial;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introdução ao html 5 </br> let's go!!</h1>
+    <div id="p1">
+        
+        <ol type="1">criando um repositorio em git >
+            <br>
+            <li>primeiro criar um repositorio</li>
+            <li>segundo clonar ele na maquina</li>
+            <li>terceiro....</li>
+        </ol>
+        
+    </div>
+
+    <div id="p2">
+        <p> introdução a botão</p>
+    </div>
+
+    <div id="p2">
+        <p id="demo">seja bem vindo  <span id="status"></span>!</p>
+        <p id="demo2"> como foi seu dia? <span id="status2"></span></p>
+        
+
+    </div>
+    <script>
+        window.alert("voce é dahora")
+
+        var nome = window.prompt("qual é o seu nome? ")
+        document.getElementById("status").innerHTML = nome;
+
+        var status2 =  window.prompt("como foi seu dia? ")
+        document.getElementById("status2").innerHTML = status2;
+    </script>
+
+</body>
+</html>
