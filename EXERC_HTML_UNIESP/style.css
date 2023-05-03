@@ -1,0 +1,17 @@
+body{
+    background-color: bisque;
+    font: normal 20 pt arial;
+}
+div#i1{
+    width: 60%;
+    margin: 0 auto;
+}
+div#i3{
+    width: 40%;
+    left: 40%;
+    margin: 0 auto;
+}
+img{
+    width: 60%;
+    margin: 0 auto;
+}
